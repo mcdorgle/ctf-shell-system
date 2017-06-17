@@ -1,0 +1,66 @@
+2017-06-13 21:18:31,264 - docker-tcp-switchboard - DEBUG - Detected configdir directive. Reading configfiles from ['./docker-tcp-switchboard.conf', '/home/ubuntu/docker-tcp-switchboard/docker-tcp-switchboard.d/mcdorgle.conf']
+2017-06-13 21:18:31,265 - docker-tcp-switchboard - DEBUG - Read config for profile mcdorgle as:
+ {'checkupport': 22,
+ 'containername': 'mcdorgle/ctf',
+ 'dockeroptions': {'detach': True, 'ports': {22: None}},
+ 'innerport': 22,
+ 'limit': 2,
+ 'outerport': 2242,
+ 'reuse': False}
+2017-06-13 21:18:31,265 - docker-tcp-switchboard - DEBUG - Listening on port 2242
+2017-06-13 21:18:51,243 - docker-tcp-switchboard - DEBUG - Starting instance mcdorgle of container mcdorgle/ctf with dockeroptions {'detach': True, 'ports': {22: None}}
+2017-06-13 21:18:51,363 - docker-tcp-switchboard - DEBUG - Failed to start instance mcdorgle of container mcdorgle/ctf: 400 Client Error: Bad Request ("client is newer than server (client API version: 1.26, server API version: 1.24)")
+2017-06-13 21:18:51,363 - docker-tcp-switchboard - WARNING - Failed to get instanceid: 'NoneType' object has no attribute 'id'
+2017-06-13 21:18:51,363 - docker-tcp-switchboard - WARNING - Failed to get port information for port 22 from None: 'NoneType' object has no attribute 'attrs'
+2017-06-13 21:18:51,363 - docker-tcp-switchboard - WARNING - Failed to get instanceid: 'NoneType' object has no attribute 'id'
+2017-06-13 21:18:51,363 - docker-tcp-switchboard - DEBUG - Killing and removing None (middleport None)
+2017-06-13 21:18:51,363 - docker-tcp-switchboard - WARNING - Failed to remove instance for middleport None, id None
+2017-06-13 21:18:51,363 - docker-tcp-switchboard - INFO - [Session abXhivgcxXIBAGtE] Incoming connection for image mcdorgle from IPv4Address(TCP, '52.14.208.90', 42227) at 1497388731.242247
+2017-06-13 21:18:51,363 - docker-tcp-switchboard - WARNING - Failed to get instanceid: 'NoneType' object has no attribute 'id'
+2017-06-13 21:18:51,363 - docker-tcp-switchboard - WARNING - Failed to get port information for port 22 from None: 'NoneType' object has no attribute 'attrs'
+2017-06-13 22:27:59,372 - docker-tcp-switchboard - DEBUG - Detected configdir directive. Reading configfiles from ['./docker-tcp-switchboard.conf', '/home/ubuntu/docker-tcp-switchboard/docker-tcp-switchboard.d/mcdorgle.conf']
+2017-06-13 22:27:59,373 - docker-tcp-switchboard - DEBUG - Read config for profile mcdorgle as:
+ {'checkupport': 22,
+ 'containername': 'mcdorgle/ctf',
+ 'dockeroptions': {'detach': True, 'ports': {22: None}},
+ 'innerport': 22,
+ 'limit': 2,
+ 'outerport': 2242,
+ 'reuse': False}
+2017-06-13 22:27:59,374 - docker-tcp-switchboard - DEBUG - Listening on port 2242
+2017-06-13 22:28:17,638 - docker-tcp-switchboard - DEBUG - Starting instance mcdorgle of container mcdorgle/ctf with dockeroptions {'detach': True, 'ports': {22: None}}
+2017-06-13 22:28:17,646 - docker-tcp-switchboard - DEBUG - Failed to start instance mcdorgle of container mcdorgle/ctf: 400 Client Error: Bad Request ("client is newer than server (client API version: 1.26, server API version: 1.24)")
+2017-06-13 22:28:17,646 - docker-tcp-switchboard - WARNING - Failed to get instanceid: 'NoneType' object has no attribute 'id'
+2017-06-13 22:28:17,646 - docker-tcp-switchboard - WARNING - Failed to get port information for port 22 from None: 'NoneType' object has no attribute 'attrs'
+2017-06-13 22:28:17,646 - docker-tcp-switchboard - WARNING - Failed to get instanceid: 'NoneType' object has no attribute 'id'
+2017-06-13 22:28:17,647 - docker-tcp-switchboard - DEBUG - Killing and removing None (middleport None)
+2017-06-13 22:28:17,647 - docker-tcp-switchboard - WARNING - Failed to remove instance for middleport None, id None
+2017-06-13 22:28:17,647 - docker-tcp-switchboard - INFO - [Session eabUUSPYjtFvOCyW] Incoming connection for image mcdorgle from IPv4Address(TCP, '68.117.123.103', 57762) at 1497392897.636782
+2017-06-13 22:28:17,647 - docker-tcp-switchboard - WARNING - Failed to get instanceid: 'NoneType' object has no attribute 'id'
+2017-06-13 22:28:17,647 - docker-tcp-switchboard - WARNING - Failed to get port information for port 22 from None: 'NoneType' object has no attribute 'attrs'
+2017-06-13 22:28:47,679 - docker-tcp-switchboard - WARNING - Failed to get instanceid: 'NoneType' object has no attribute 'id'
+2017-06-13 22:28:47,679 - docker-tcp-switchboard - WARNING - Failed to get port information for port 22 from None: 'NoneType' object has no attribute 'attrs'
+2017-06-13 22:28:47,679 - docker-tcp-switchboard - WARNING - Failed to get instanceid: 'NoneType' object has no attribute 'id'
+2017-06-13 22:28:47,679 - docker-tcp-switchboard - DEBUG - Killing and removing None (middleport None)
+2017-06-13 22:28:47,679 - docker-tcp-switchboard - WARNING - Failed to remove instance for middleport None, id None
+2017-06-13 22:28:47,679 - docker-tcp-switchboard - INFO - [Session eabUUSPYjtFvOCyW] server disconnected session for image mcdorgle from IPv4Address(TCP, '68.117.123.103', 57762) (start=1497392897.636782, end=1497392927.6795805, duration=30.04279851913452, upBytes=0, downBytes=0, totalBytes=0)
+2017-06-14 00:24:08,538 - docker-tcp-switchboard - DEBUG - Detected configdir directive. Reading configfiles from ['./docker-tcp-switchboard.conf', '/home/ubuntu/docker-tcp-switchboard/docker-tcp-switchboard.d/mcdorgle.conf']
+2017-06-14 00:24:08,539 - docker-tcp-switchboard - DEBUG - Read config for profile mcdorgle as:
+ {'checkupport': 22,
+ 'containername': 'mcdorgle/ctf',
+ 'dockeroptions': {'detach': True, 'ports': {22: None}},
+ 'innerport': 22,
+ 'limit': 2,
+ 'outerport': 2242,
+ 'reuse': False}
+2017-06-14 00:24:08,539 - docker-tcp-switchboard - DEBUG - Listening on port 2242
+2017-06-14 00:24:20,700 - docker-tcp-switchboard - DEBUG - Starting instance mcdorgle of container mcdorgle/ctf with dockeroptions {'detach': True, 'ports': {22: None}}
+2017-06-14 00:24:20,705 - docker-tcp-switchboard - DEBUG - Failed to start instance mcdorgle of container mcdorgle/ctf: 400 Client Error: Bad Request ("client is newer than server (client API version: 1.26, server API version: 1.24)")
+2017-06-14 00:24:20,705 - docker-tcp-switchboard - WARNING - Failed to get instanceid: 'NoneType' object has no attribute 'id'
+2017-06-14 00:24:20,705 - docker-tcp-switchboard - WARNING - Failed to get port information for port 22 from None: 'NoneType' object has no attribute 'attrs'
+2017-06-14 00:24:20,705 - docker-tcp-switchboard - WARNING - Failed to get instanceid: 'NoneType' object has no attribute 'id'
+2017-06-14 00:24:20,705 - docker-tcp-switchboard - DEBUG - Killing and removing None (middleport None)
+2017-06-14 00:24:20,705 - docker-tcp-switchboard - WARNING - Failed to remove instance for middleport None, id None
+2017-06-14 00:24:20,705 - docker-tcp-switchboard - INFO - [Session kLNUHJVIqdqZqkMb] Incoming connection for image mcdorgle from IPv4Address(TCP, '68.117.123.103', 58207) at 1497399860.698929
+2017-06-14 00:24:20,705 - docker-tcp-switchboard - WARNING - Failed to get instanceid: 'NoneType' object has no attribute 'id'
+2017-06-14 00:24:20,706 - docker-tcp-switchboard - WARNING - Failed to get port information for port 22 from None: 'NoneType' object has no attribute 'attrs'

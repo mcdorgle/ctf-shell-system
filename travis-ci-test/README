@@ -1,0 +1,2 @@
+setupenv.sh starts docker, builds the images and installs some packages to run the switchboard.
+runtest.sh starts the switchboard and then runs client.py, which runs the tests against echoserv and upperserv.
